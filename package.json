@@ -1,0 +1,17 @@
+{
+  "name": "@baldeweg/vuepress-theme-cms",
+  "version": "0.1.0",
+  "description": "The theme for the baldeweg/cms-businesscard CMS.",
+  "main": "index.js",
+  "authors": {
+    "name": "André Baldeweg",
+    "email": "a@baldeweg.org"
+  },
+  "repository": "https://github.com/abaldeweg/vuepress-theme-cms",
+  "scripts": {},
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "@baldeweg/components": "^5.0.1"
+  }
+}
