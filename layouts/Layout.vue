@@ -27,6 +27,14 @@
         </ul>
       </b-container>
     </b-content>
+
+    <style v-if="hasColors">
+      html {
+        --color-primary-10: {{ $themeConfig.colors.color10 }};
+        --color-primary-05: {{ $themeConfig.colors.color05 }};
+        --color-primary-00: {{ $themeConfig.colors.color00 }};
+      }
+    </style>
   </b-app>
 </template>
 
@@ -39,6 +47,20 @@ export default {
     },
     links (){
       return this.$themeConfig.links
+    },
+    hasColors() {
+      if (!this.$themeConfig.colors) {
+        return false
+      }
+      if (
+        this.$themeConfig.colors.color10 &&
+        this.$themeConfig.colors.color05 &&
+        this.$themeConfig.colors.color00
+      ) {
+        return true
+      }
+
+      return false
     }
   }
 }
