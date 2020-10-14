@@ -9,6 +9,8 @@ The theme for the [baldeweg/cms-businesscard](https://github.com/abaldeweg/cms-b
 
 ## Getting Started
 
+Install it with `yarn add @baldeweg/cms-cli --save`.
+
 Add it to the config of the CMS in `content/.vuepress/config.js`.
 
 ```js
