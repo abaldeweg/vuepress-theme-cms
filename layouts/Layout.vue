@@ -38,6 +38,11 @@
         --color-primary-00: {{ $themeConfig.colors.color00 }};
       }
     </style>
+    <style v-if="$themeConfig.mastheadHeight">
+      html {
+        --masthead-height: {{ $themeConfig.mastheadHeight }};
+      }
+    </style>
   </b-app>
 </template>
 
