@@ -2,7 +2,10 @@
   <b-app>
     <b-masthead>
       <b-masthead-item type="center">
-        baldeweg/cms-businesscard
+        <img :src="$withBase('/' + $site.themeConfig.logo)" :alt="$site.title" v-if="$site.themeConfig.logo"/>
+        <span v-else>
+          {{ $site.title }}
+        </span>
       </b-masthead-item>
     </b-masthead>
 
