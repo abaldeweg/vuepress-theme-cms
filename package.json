@@ -1,6 +1,6 @@
 {
   "name": "@baldeweg/vuepress-theme-cms",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The theme for the baldeweg/cms-businesscard CMS.",
   "main": "index.js",
   "authors": {
