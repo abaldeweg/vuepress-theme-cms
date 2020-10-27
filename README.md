@@ -1,6 +1,6 @@
 # baldeweg/vuepress-theme-cms
 
-The theme for the [baldeweg/cms-businesscard](https://github.com/abaldeweg/cms-businesscard) CMS.
+The theme for [baldeweg/cms-cli](https://github.com/abaldeweg/cms-cli).
 
 ## Requirements
 
@@ -9,7 +9,7 @@ The theme for the [baldeweg/cms-businesscard](https://github.com/abaldeweg/cms-b
 
 ## Getting Started
 
-Install it with `yarn add @baldeweg/cms-cli --save`.
+Install it with `yarn add @baldeweg/vuepress-theme-cms --save`.
 
 Add it to the config of the CMS in `content/.vuepress/config.js`.
 
