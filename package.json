@@ -1,7 +1,7 @@
 {
   "name": "@baldeweg/vuepress-theme-cms",
   "version": "0.2.0",
-  "description": "The theme for the baldeweg/cms-businesscard CMS.",
+  "description": "The theme for baldeweg/cms-cli.",
   "main": "index.js",
   "authors": {
     "name": "André Baldeweg",
