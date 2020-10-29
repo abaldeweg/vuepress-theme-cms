@@ -2,14 +2,16 @@
   <b-app>
     <b-masthead>
       <b-masthead-item type="center">
-        <img
-          :src="$withBase('/' + $site.themeConfig.logo)"
-          :alt="$site.title"
-          v-if="$site.themeConfig.logo"
-        />
-        <span v-else>
-          {{ $site.title }}
-        </span>
+        <router-link :to="{path: '/'}">
+          <img
+            :src="$withBase('/' + $site.themeConfig.logo)"
+            :alt="$site.title"
+            v-if="$site.themeConfig.logo"
+          />
+          <span v-else>
+            {{ $site.title }}
+          </span>
+        </router-link>
       </b-masthead-item>
     </b-masthead>
 
