@@ -16,7 +16,7 @@
     </b-masthead>
 
     <b-content>
-      <b-container size="m" align="right" v-if="nav">
+      <b-container :size="containerWidth" align="right" v-if="nav">
         <ul class="nav">
           <li class="nav_item" v-for="item in nav" :key="nav.link">
             <router-link :to="item.link">{{item.text}}</router-link>
@@ -24,7 +24,7 @@
         </ul>
       </b-container>
 
-      <b-container size="m">
+      <b-container :size="containerWidth">
         <h1>Error 404</h1>
         <p>Could not find the requested page.</p>
 
@@ -44,7 +44,7 @@
         </svg>
       </b-container>
 
-      <b-container size="m" v-if="links">
+      <b-container :size="containerWidth" v-if="links">
         <ul class="nav">
           <li class="nav_item" v-for="item in links" :key="links.link">
             <router-link :to="item.link">{{item.text}}</router-link>
@@ -91,6 +91,13 @@ export default {
       }
 
       return false
+    },
+    containerWidth () {
+      const width = this.$themeConfig.containerWidth
+      if (!width) return 'm'
+      if (['l', 'm', 's'].indexOf(width) === -1) return 'm'
+
+      return width
     }
   }
 }
