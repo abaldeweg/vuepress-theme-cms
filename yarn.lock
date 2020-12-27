@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@baldeweg/components@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@baldeweg/components/-/components-5.0.1.tgz#3a5eb2125db034161ec676352f7139bd06ea52a7"
-  integrity sha512-/TX2JBfIslN9bGgeDOUCzZT6wxOd6pLug3lAt5YPldDcCH+0eNympFZb4Z8XFlAlIsC6OK+djjfpTQ1Lo0kFWQ==
+"@baldeweg/components@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@baldeweg/components/-/components-5.1.1.tgz#c57aa401f1e0ba3a25d27d4d1efe354343819ae5"
+  integrity sha512-pMFjWEhOHQZLHqJRNGMvBemtrsA8coBr7wjb8AjQ+1YknuhsLWC5RLpQd4y7bLYQucA59erTeCiJKQHvadZLZQ==
   dependencies:
     ejs "^3.1"
     lodash "^4.17"
